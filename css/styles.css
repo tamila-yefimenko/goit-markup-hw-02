@@ -41,6 +41,7 @@ ul, ol {
 
 .nav-list .act:active {
     color: #404BBF;
+    text-decoration: underline;
 }
 
 .address-nav .link-address {
