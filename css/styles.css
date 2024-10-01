@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -16,14 +16,14 @@ ul, ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .link-logo .logo {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .nav-list .link-nav {
@@ -39,8 +39,8 @@ ul, ol {
     color: #404BBF;
 }
 
-.nav-list .act:active {
-    color: #404BBF;
+.address-nav {
+font-style: normal;
 }
 
 .address-nav .link-address {
@@ -62,13 +62,14 @@ ul, ol {
 .section-effective .title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
 .section-effective .button-order {
+    font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -78,15 +79,17 @@ ul, ol {
     cursor: pointer;
 }
 
-.section-effective .button-order:hover {
+.section-effective .button-order:hover,
+.section-effective .button-order:focus {
     background-color: #404BBF;
 }
 
 .section-part .section-part-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -118,7 +121,11 @@ ul, ol {
     background-color: #2e2f42;
 }
 
-.footer-text {
+.footer-section .logo-footer {
+    color: #f4f4fd;
+}
+
+.footer-section .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
